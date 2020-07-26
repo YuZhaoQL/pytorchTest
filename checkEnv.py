@@ -29,7 +29,7 @@ training_data = [
     ("Everybody read that book".split(), ["NN", "V", "DET", "NN"])
 ]
 
-
+o=0
 word_to_ix = {}
 for sent,tags in training_data:
     for word in sent:
